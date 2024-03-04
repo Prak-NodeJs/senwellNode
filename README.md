@@ -63,7 +63,7 @@ This will start the server at http://localhost:port.
 
 **DELETE /v1/employee/:id :**
    - delete employee record.
-      Accepts the following request params:
+      - Accepts the following request params:
       - id: id of employee (Database Id)
 
 
@@ -74,15 +74,15 @@ This will start the server at http://localhost:port.
      
 **GET /v1/employee/filter/dept/:id :**
    - filter employee records based on department name.
-      Accepts the following data in request body:
+      - Accepts the following data in request body:
       - department: name of the department
-      Accepts the following request params:
+      - Accepts the following request params:
       - id: id of employee (Database Id)
 
     
 **GET /v1/employee/sort/salary/:id :**
    - sort employee records based on salary.
-      Accepts the following request params:
+      - Accepts the following request params:
       - id: id of employee (Database Id)
-        Accepts the following query params:
+    - Accepts the following query params:
       - sort: 'asc' or 'desc'
