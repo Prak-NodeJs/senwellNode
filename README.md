@@ -68,7 +68,7 @@ This will start the server at http://localhost:port.
 
 
 **GET /v1/employee/search/:empId :**
-- fetches mployee record.
+- fetches employee record.
     - Accepts the following request params:
       - empId: empId of employee 
      
