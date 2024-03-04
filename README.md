@@ -48,41 +48,41 @@ This will start the server at http://localhost:port.
       - department: department of employee
 
 **GET /v1/employee/:id :**
-   - Fetches the details of employee.
-      Accepts the following request params:
-      - id: id of employee (Database Id)
+- Fetches the details of employee 
+  - Accepts the following request params:
+    - id: id of employee (Database Id)
      
 
 **PATCH /v1/employee/:id :**
-   - update employee name.
-     - Accepts the following data in request body:
+- update employee name.
+    - Accepts the following data in request body:
       - name: new name
-     - Accepts the following request params:
+    - Accepts the following request params:
       - id: id of employee (Database Id)
      
 
 **DELETE /v1/employee/:id :**
-   - delete employee record.
-      - Accepts the following request params:
+- delete employee record.
+    - Accepts the following request params:
       - id: id of employee (Database Id)
 
 
 **GET /v1/employee/search/:empId :**
-   - fetches mployee record.
-      Accepts the following request params:
+- fetches mployee record.
+    - Accepts the following request params:
       - empId: empId of employee 
      
 **GET /v1/employee/filter/dept/:id :**
-   - filter employee records based on department name.
-      - Accepts the following data in request body:
-      - department: name of the department
-      - Accepts the following request params:
-      - id: id of employee (Database Id)
+- filter employee records based on department name.
+- Accepts the following data in request body:
+  - department: name of the department
+- Accepts the following request params:
+    - id: id of employee (Database Id)
 
     
 **GET /v1/employee/sort/salary/:id :**
-   - sort employee records based on salary.
-      - Accepts the following request params:
-      - id: id of employee (Database Id)
-    - Accepts the following query params:
-      - sort: 'asc' or 'desc'
+- sort employee records based on salary.
+ - Accepts the following request params:
+    - id: id of employee (Database Id)
+- Accepts the following query params:
+    - sort: 'asc' or 'desc'
