@@ -2,17 +2,17 @@
 ### Quick Start
 
 **Step 1.**
-Clone nodejstask repo
+Clone senwellNode repo
 
 ```bash
-git clone https://github.com/Prak-NodeJs/nasa_apod.git
+git clone https://github.com/Prak-NodeJs/senwellNode.git
 ```
 
 **Step 2.**
 Navigate into the project directory
 
 ```bash
-cd nasa_apod
+cd senwellNode
 ```
 **Step 3.**
 Install dependencies
@@ -55,9 +55,9 @@ This will start the server at http://localhost:port.
 
 **PATCH /v1/employee/:id :**
    - update employee name.
-      Accepts the following data in request body:
+     - Accepts the following data in request body:
       - name: new name
-      Accepts the following request params:
+     - Accepts the following request params:
       - id: id of employee (Database Id)
      
 
