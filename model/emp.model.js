@@ -19,7 +19,8 @@ const empSchema = new mongoose.Schema({
         unique :true
     },
     salary:{
-        type:Number
+        type:Number,
+        required:true
     },
     department:{
         type:String,
